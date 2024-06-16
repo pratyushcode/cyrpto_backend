@@ -18,7 +18,7 @@ const PORT=process.env.PORT||5000;
 app.use(express.json());
 app.use(bodyParser.json());
 app.use(cors({
-    origin: 'https://cyrpto-backend.onrender.com', // Allow requests from this origin
+    origin: 'https://cryptobase-front.vercel.app', // Allow requests from this origin
   }));
 
 
